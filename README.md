@@ -49,8 +49,7 @@ IBM Cloud, Python, IBM Cognos, IBM Watson DataAnalytics platform, Jupyter Notebo
 # 🔑License:
 [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://github.com/IBM-EPBL/IBM-Project-20999-1659769026/blob/main/LICENSE)
 
-# Contributions:
-![Snake animation](https://github.com/SuryaR-25/Snake/blob/main/profile-output/github-contribution-grid-snake.svg)
+
 
 <div align="center">
 <h2>From the college of Vel Tech Multi Tech Engineering Collage<br></h2>
