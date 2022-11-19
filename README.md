@@ -44,7 +44,7 @@ The all-time record for single-day ridership occured on September 9,2022, when t
 
 
 # **🎯Skills Required:**
-IBM Cloud, Python, IBM Cognos, IBM Watson DataAnalytics platform, Jupyter Notebook.
+IBM Cloud, Python, IBM Cognos, IBM Watson Data Analytics platform, Jupyter Notebook.
 
 # 🔑License:
 [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://github.com/IBM-EPBL/IBM-Project-20999-1659769026/blob/main/LICENSE)
