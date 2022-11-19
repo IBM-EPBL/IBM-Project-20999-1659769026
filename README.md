@@ -53,6 +53,6 @@ IBM Cloud, Python, IBM Cognos, IBM Watson Data Analytics platform, Jupyter Noteb
 
 
 <div align="center">
-<h2>From the college of Vel Tech Multi Tech Engineering Collage<br></h2>
-             <h2>Thank You❣️</h2>
+<h2>From the college of Vel Tech Multi Tech Dr.Rangarajan Dr.Sakunthala Engineering College<br></h2>
+             <h2>Thank You</h2>
              </div>
