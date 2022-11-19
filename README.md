@@ -5,6 +5,7 @@
  
 # IBM-Project-20999-1659769026
 # A New Hint to Transportation-Analysis of the NYC Bike Share System
+ <img src="//images.ctfassets.net/p6ae3zqfb1e3/irvkhqL99lhb8uRaH9fJb/caf85ce59a221a746a028b6456df5c23/2_EzRider-hero_animation_web.gif?w=1500&amp;q=80&amp;fm=" alt="Meet our bikes" height="600" width="800" loading="lazy" class="sc-8f177dbb-2 kpWlxs">
 <img src="https://images.ctfassets.net/p6ae3zqfb1e3/irvkhqL9…/2_EzRider-hero_animation_web.gif?w=1500&q=80&fm=" align="right" width="240" height="175"/>
 </div>
 
