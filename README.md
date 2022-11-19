@@ -5,7 +5,7 @@
  
 # IBM-Project-20999-1659769026
 # A New Hint to Transportation-Analysis of the NYC Bike Share System
-<img src="https://cdn.dribbble.com/users/2929464/screenshots/5732611/media/9e4c99f2dccc3103c274715ac928490f.gif" align="right" width="240" height="175"/>
+<img src="https://images.ctfassets.net/p6ae3zqfb1e3/irvkhqL99lhb8uRaH9fJb/caf85ce59a221a746a028b6456df5c23/2_EzRider-hero_animation_web.gif?w=1500&q=80&fm=" align="right" width="240" height="175"/>
 </div>
 
 👨🏻‍💻 <b>Technology:</b> Data Analytics <br>
