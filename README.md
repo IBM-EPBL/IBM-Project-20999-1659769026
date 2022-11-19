@@ -6,7 +6,7 @@
 # IBM-Project-20999-1659769026
 # A New Hint to Transportation-Analysis of the NYC Bike Share System
  
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ_4Wnc_I4EFmMCkj_jXhlhtni5lsdtutB4Q&usqp=CAU" align="right" width="240" height="175"/>
+<img src="https://animalnewyork.com/wp-content/uploads/2015/06/citibike-jun10.gif" align="right" width="240" height="175"/>
 </div>
 
 👨🏻‍💻 <b>Technology:</b> Data Analytics <br>
