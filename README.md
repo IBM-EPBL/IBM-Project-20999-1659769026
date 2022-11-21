@@ -42,8 +42,9 @@ reached 100 million rides. As of July 2019, there are 169,000 annual subscribers
 The all-time record for single-day ridership occured on September 9,2022, when the system had 138,372 rides.
 ```
 
-Dataset Link = https://s3.amazonaws.com/tripdata/index.html
-
+**Dataset Link =** https://s3.amazonaws.com/tripdata/index.html
+**Project Demo Link =** https://drive.google.com/file/d/1snVtL0Jn1M5zTAKB2xaXT2_9TY9Tz2tV/view?usp=share_link
+**Full Video =** https://drive.google.com/file/d/1M-d3LBRYQHUiSccZWqZwD9qHi0DnJUXo/view?usp=share_link
 # **🎯Skills Required:**
 IBM Cloud, Python, IBM Cognos, IBM Watson Data Analytics platform, Jupyter Notebook.
 
