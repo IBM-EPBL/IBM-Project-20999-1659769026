@@ -39,7 +39,8 @@ First proposed in 2008 by the New York City Department  Of Transportation, City 
 scheduled 2011 opening was delayed by hurricane Sandy and technology problems. 
 In October 2017 the system reached of a total of 50 million rides and in July 2020 the system
 reached 100 million rides. As of July 2019, there are 169,000 annual subscribers.
-The all-time record for single-day ridership occured on September 9,2022, when the system had 138,372 rides.
+The all-time record for single-day ridership occured on September 9,2022, when the system had
+138,372 rides.
 ```
 
 **Dataset Link =** https://s3.amazonaws.com/tripdata/index.html
@@ -47,6 +48,7 @@ The all-time record for single-day ridership occured on September 9,2022, when t
 **Project Demo Link =** https://drive.google.com/file/d/1snVtL0Jn1M5zTAKB2xaXT2_9TY9Tz2tV/view?usp=share_link
 
 **Full Video =** https://drive.google.com/file/d/1M-d3LBRYQHUiSccZWqZwD9qHi0DnJUXo/view?usp=share_link
+
 # **🎯Skills Required:**
 IBM Cloud, Python, IBM Cognos, IBM Watson Data Analytics platform, Jupyter Notebook.
 
