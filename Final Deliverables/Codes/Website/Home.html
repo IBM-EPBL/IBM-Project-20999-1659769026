@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      A New Hint to Transportation-Analysis of the NYC Bike Share System
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      body {
+        /* margin: 10px; */
+        /* padding: 40px; */
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        background: -webkit-linear-gradient(
+          right,
+          rgb(201, 211, 224),
+          rgb(255, 255, 255)
+        );
+      }
+
+      #team-details {
+        margin-top: 90px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 80px;
+      }
+
+      #team-details h3 {
+        text-decoration-line: underline;
+      }
+
+      #main-content {
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+
+      ul {
+        list-style-type: none;
+        /* margin-left: 5%;
+        margin-right: 5%; */
+        padding: 5px;
+        /* overflow: hidden; */
+        background-color: rgb(34, 39, 63);
+        /* border-radius: 12px; */
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-shadow: 2px 3px 20px 3px rgb(74, 74, 74);
+      }
+
+      li {
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* flex-direction: column; */
+        text-decoration: none;
+        transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        /* border: 4px solid green; */
+        margin-right: 12px;
+      }
+
+      li a {
+        /* border: 4px solid red; */
+        display: block;
+        color: rgb(246, 239, 239);
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        /* background: -webkit-linear-gradient(25deg, #d64c7f, #ee4758 50%); */
+        border-radius: 12px;
+      }
+
+      li:last-child {
+        float: right;
+        margin-right: 30px;
+      }
+
+      #ibm-button button {
+        border-radius: 20px;
+        border: none;
+        transition: 0.4s;
+        /* background-image: linear-gradient(to right, white,rgb(255, 255, 255)); */
+      }
+
+      #ibm-button a {
+        color: rgb(34, 39, 63);
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+
+      #ibm-button button:hover {
+        /* background: -webkit-linear-gradient(to right, rgb(34, 39, 63), #ee4758); */
+
+        transform: scale(1.07);
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a class="active" href="Home.html"><strong>Home</strong></a>
+      </li>
+      <li>
+        <a href="Dashboard.html"><strong>Dashboard</strong></a>
+      </li>
+      <li>
+        <a href="Report.html"><strong>Report</strong></a>
+      </li>
+      <li>
+        <a href="Story.html"><strong>Story</strong></a>
+      </li>
+      <li id="ibm-button">
+        <button>
+          <a
+            href="https://eu1.ca.analytics.ibm.com/bi/?perspective=home"
+            target="_blank"
+            ><strong>IBM LOGIN</strong></a
+          >
+        </button>
+      </li>
+    </ul>
+
+    <div id="team-details">
+      <h1>
+        A New Hint to Transportation-Analysis of the NYC Bike Share System
+      </h1>
+      <br />
+      <h2>
+        <strong style="text-align: center">Team ID:</strong>
+        <strong>PNT2022TMID22565</strong>
+      </h2>
+      <br />
+      <h3><strong>Team Members</strong></h3>
+      <strong>Mahesh S M<br /></strong>
+      <strong>Pranav M<br /></strong>
+      <strong>Kabilraj S<br /></strong>
+      <strong>Robert Samuel J<br /></strong>
+    </div>
+    <br />
+    <div id="main-content">
+      <h2>Introduction</h2>
+      <br />
+      <p>
+        Bike share programs have risen in popularity in recent years and have
+        been promoted as a lower carbon alternative to other forms of transit.
+        Interest in bicycle sharing has been growing exponentially over the past
+        decade, resulting in a proliferation of bike share systems in many
+        cities across the world. This can be largely attributed to the
+        successful incorporation of information technology in docking stations
+        and mobile devices as well as improved logistics such as bicycle
+        rebalancing to ensure responsive supply management. Cities often hope
+        bike sharing will bring many beneﬁts such as extending the reach of
+        transit, substituting motorized trips, and encourage non-cyclists to try
+        cycling.
+      </p>
+      <br />
+      <p>
+        The premise of bicycle sharing is that it is a short-term bike rental
+        system, based on varying timed memberships. Members of the bike share
+        network have access to stations, comprised of a pay-station and multiple
+        bike docks, across the system where bikes can be checked out from one
+        station and returned to another nearest to their destination. The appeal
+        of membership is 24/7 access to an automated bike rental network and
+        utility of bikes without the worry of storage or maintenance. The price
+        system is set to encourage shorter trips, with additional fees for any
+        time used over that maximum. There is evidence that bike share users
+        switch to bike share from motorized transport, such as bus and auto
+        creating the potential for signiﬁcant reductions in transportation
+        related greenhouse gas or CO2 emissions.
+      </p>
+      <br /><br />
+      <h2>Project Description</h2>
+      <br />
+      <p>
+        Citi Bike must know how much increase or decrease they might see in
+        supply and demand for their service in the future. Therefore, this
+        analysis is made to provide an answer to this problem.By this analysis,
+        they can gain a better understanding about the system.This analysis
+        provides many benefits such as it measures data like distance, and helps
+        with tasks such as route planning, expansion of the bicycle sharing
+        system, manufacturing of desired bikes etc.<br /><br />It makes use of
+        the available dataset precisely and gives accurate data visualizations
+        that can be used to improve the citi bike sharing system.<br /><br />As
+        more data becomes available, particularly in other areas with
+        identically comprehensive bike sharing systems, a clearer picture of the
+        role of this transport mode in these emergency situations can be better
+        evaluated by this analysis and provide results with an increased
+        accuracy.
+      </p>
+      <br /><br />
+
+      <h2>Project Objectives</h2>
+      <br />
+      <p>By the end of this project, one will:</p>
+      <br />
+      <p>
+        1.Know the fundamental concepts and can work on IBM Cognos Analytics
+      </p>
+      <p>2.Gain a broad understanding of plotting different graphs</p>
+      <p>3.Be able to create meaningful dashboards</p>
+
+      <br /><br />
+      <h2>Goal</h2>
+      <br />
+      <p>
+        The goal of this analysis is to create an operating report of Citi Bike
+        for the year 2018. The following data visualizations are created to
+        understand the report
+      </p>
+      <br />
+      <p>1.Total Number of Trips</p>
+
+      <p>2.What is Customer and subscriber with gender</p>
+
+      <p>3.Find the top bike used with respect to trip duration?</p>
+
+      <p>4.Calculating the number of bikes used by respective age groups</p>
+
+      <p>5.Top 10 Start Station Names with respect to Customer age group</p>
+      <br /><br />
+      <h2>Solution architecture</h2>
+      <br />
+      <img src="./Solution architecture.jpeg" alt="Solution Architecture" />
+      <br /><br /><br /><br /><br />
+      <h2>Technical architecture</h2>
+      <br />
+      <img src="./Technical architecture.jpeg" alt="Technical Architecture" />
+      <br /><br /><br /><br /><br />
+      <h2>Data Flow Diagram</h2>
+      <br />
+      <img src="./Data flow diagram.jpeg" alt="Data flow diagram" />
+    </div>
+  </body>
+</html>

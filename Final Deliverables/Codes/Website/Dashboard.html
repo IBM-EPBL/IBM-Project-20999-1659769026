@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      A New Hint to Transportation-Analysis of the NYC Bike Share System
+    </title>
+    <link rel="stylesheet" href="#" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      body {
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        background: -webkit-linear-gradient(
+          right,
+          rgb(201, 211, 224),
+          rgb(255, 255, 255)
+        );
+      }
+
+      iframe {
+        display: flex;
+      }
+      p {
+        text-align: center;
+      }
+
+      ul {
+        list-style-type: none;
+
+        padding: 5px;
+
+        background-color: rgb(34, 39, 63);
+
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-shadow: 2px 3px 20px 3px rgb(74, 74, 74);
+      }
+
+      li {
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        text-decoration: none;
+        transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+        margin-right: 12px;
+      }
+
+      li a {
+        display: block;
+        color: rgb(246, 239, 239);
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        border-radius: 12px;
+      }
+
+      li:last-child {
+        float: right;
+        margin-right: 30px;
+      }
+
+      #ibm-button button {
+        border-radius: 20px;
+        border: none;
+        transition: 0.4s;
+      }
+
+      #ibm-button a {
+        color: rgb(34, 39, 63);
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+
+      #ibm-button button:hover {
+        transform: scale(1.07);
+      }
+
+      div {
+        margin-top: 140px;
+        margin-bottom: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a class="active" href="Home.html"><strong>Home</strong></a>
+      </li>
+      <li>
+        <a href="dashboard.html"><strong>Dashboard</strong></a>
+      </li>
+      <li>
+        <a href="Report.html"><strong>Report</strong></a>
+      </li>
+      <li>
+        <a href="Stories.html"><strong>Story</strong></a>
+      </li>
+      <li id="ibm-button">
+        <button>
+          <a
+            href="https://eu1.ca.analytics.ibm.com/bi/?perspective=home"
+            target="_blank"
+            ><strong>IBM LOGIN</strong></a
+          >
+        </button>
+      </li>
+    </ul>
+
+    <h1>A New Hint to Transportation-Analysis of the NYC Bike Share System</h1>
+    <div>
+      <iframe
+        src="https://us1.ca.analytics.ibm.com/bi/?perspective=dashboard&id=iF44C6FCEE6254D95B54F4E6BA63936A3&objRef=iF44C6FCEE6254D95B54F4E6BA63936A3&options%5BdisableGlassPrefetch%5D=true&options%5Bcollections%5D%5BcanvasExtension%5D%5Bid%5D=com.ibm.bi.dashboard.canvasExtension&options%5Bcollections%5D%5BfeatureExtension%5D%5Bid%5D=com.ibm.bi.dashboard.core-features&options%5Bcollections%5D%5Bbuttons%5D%5Bid%5D=com.ibm.bi.dashboard.buttons&options%5Bcollections%5D%5Bwidget%5D%5Bid%5D=com.ibm.bi.dashboard.widgets&options%5Bcollections%5D%5BcontentFeatureExtension%5D%5Bid%5D=com.ibm.bi.dashboard.content-features&options%5Bcollections%5D%5BsaveServices%5D%5Bid%5D=com.ibm.bi.dashboard.saveServices&options%5Bcollections%5D%5Btemplates%5D%5Bid%5D=com.ibm.bi.dashboard.templates&options%5Bcollections%5D%5BvisualizationExtension%5D%5Bid%5D=com.ibm.bi.dashboard.visualizationExtensionCA&options%5Bcollections%5D%5BboardModel%5D%5Bid%5D=com.ibm.bi.dashboard.boardModelExtension&options%5Bcollections%5D%5BcontentTypes%5D%5Bid%5D=com.ibm.bi.dashboard.contentTypes&options%5Bcollections%5D%5BserviceExtension%5D%5Bid%5D=com.ibm.bi.dashboard.serviceExtension&options%5Bcollections%5D%5BlayoutExtension%5D%5Bid%5D=com.ibm.bi.dashboard.layoutExtension&options%5Bcollections%5D%5BcolorSetExtensions%5D%5Bid%5D=com.ibm.bi.dashboard.colorSetExtensions&options%5Bconfig%5D%5Bproduct%5D=CA&options%5Bconfig%5D%5BeditPropertiesLabel%5D=true&options%5Bconfig%5D%5BenableCustomVisualizations%5D=true&options%5Bconfig%5D%5BassetTags%5D%5B%5D=dashboard&options%5Bconfig%5D%5BfilterDock%5D=true&options%5Bconfig%5D%5BshowMembers%5D=true&options%5Bconfig%5D%5Bupgrades%5D=dashboard-core%2Fjs%2Fdashboard%2Fupgrades&options%5Bconfig%5D%5BassetType%5D=exploration&options%5Bconfig%5D%5BgeoService%5D=CA&options%5Bconfig%5D%5BsmartTitle%5D=true&options%5Bconfig%5D%5BnavigationGroupAction%5D=true&options%5Bconfig%5D%5BenableDataQuality%5D=false&options%5Bconfig%5D%5BmemberCalculation%5D=false&isAuthoringMode=false&boardId=iF44C6FCEE6254D95B54F4E6BA63936A3"
+        width="1420"
+        height="700"
+        frameborder="0"
+        gesture="media"
+        allow="encrypted-media"
+        allowfullscreen=""
+      ></iframe>
+      <br /><br /><br />
+      <p>
+        <a
+          href="https://us1.ca.analytics.ibm.com/bi/?perspective=dashboard&pathRef=.my_folders%2FA%2BNew%2BHint%2Bto%2BTransportation-Analysis%2Bof%2Bthe%2BNYC%2BBike%2BShare%2BSystem&action=view&mode=dashboard&subView=model000001845b6fd11d_00000002"
+          target="iframe_a"
+          ><strong>IBM Cognos Analytics - Dashboard</strong></a
+        >
+      </p>
+    </div>
+  </body>
+</html>
